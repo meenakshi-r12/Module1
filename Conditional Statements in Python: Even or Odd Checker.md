@@ -20,4 +20,6 @@ Print(b)
 
 ## Result
 
-Thus the program is verified.
+Thus, the required program is written and executed successfully.
+ 
+
