@@ -1,28 +1,22 @@
-# 🧮 Datatypes-Complex Number Creation in Python
+# Ex-1D CONDITIONAL STATEMENTS
 
-## 🎯 Aim
-To write a Python program that reads two integers, creates a complex number using them, and then prints the complex number along with its real and imaginary parts.
-
-## 🧠 Algorithm
-1. Read an integer input from the user and assign it to the variable `a` (real part).
-2. Read another integer input from the user and assign it to the variable `b` (imaginary part).
-3. Create a complex number `x` using the `complex(a, b)` function.
-4. Print the complex number `x`.
-5. Print the real part of `x` using `x.real`.
-6. Print the imaginary part of `x` using `x.imag`.
-
-## 💻 Program
+## Aim
+To write a Python program to check whether  a person is eligible to cast his vote using if..else statements.
+## Algorithm
+1.	Read input to integer and convert it to an variable “age".
+2.	If age is greater than or equal to 18 then, print "Eligible”
+3.	If age is less than 18 then, print “Not Eligible”
+4.	End of the program
+## Program
 ```
-a=int(input())
-b=int(input())
-x=complex(a,b)
-print(x)
-print(x.real)
-print(x.imag)
+age = int(input())
+if age >= 18:
+   print("Eligible")
+else:
+       print("Not Eligible")
 ```
-
 ## Output
-![Screenshot (52)](https://github.com/user-attachments/assets/f1c38f34-5f69-4aeb-9ac0-ac29d84e66e8)
-
+![Screenshot (65)](https://github.com/user-attachments/assets/4f2e86a4-587c-4d6a-8c8b-83ed99dfd577)
 ## Result
-Thus program is verified.
+Thus, the required program is written and executed successfully.
+ 
