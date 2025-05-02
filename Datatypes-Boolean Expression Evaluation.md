@@ -1,34 +1,27 @@
 
-# Ex 1:Datatypes-Boolean Expression Evaluation in Python
+# Ex 1B:Write a Python program to initialize the value as 5.800000 & display the same value with four precision using format().
 
 ## 🎯 Aim
-To write a Python program that evaluates and prints the results of boolean and arithmetic expressions involving `True` and `False`.
-
+To write a python program to print 5.8000 using format().
 ## 🧠 Algorithm
-1. Set variable `a` to the result of the expression `0 == True`.
-2. Set variable `b` to the result of the expression `False == False`.
-3. Set variable `c` to the result of the expression `True + True`.
-4. Set variable `d` to the result of the expression `False + 9`.
-5. Print the value of `a` with the label "a is".
-6. Print the value of `b` with the label "b is".
-7. Print the value of `c` with the label "c:".
-8. Print the value of `d` with the label "d:".
-
+```
+1.	Read and evaluate the input for variable “value”
+2.	Create a result value with precision value of 4 decimal number.
+3.	Print  the value “result”
+4.	End of the program.
+```
 ## 💻 Program
 ```
-a=(0==True)
-b=(False==False)
-c=(True+True)
-d=(False+9)
-print("a is:",a)
-print("b is:",b)
-print("c:",c)
-print("d:",d)
+value=5.800000
+result=format(value,".4f")
+print(result)
 ```
 ## Output
 
-![Screenshot (50)](https://github.com/user-attachments/assets/38062c2f-aefc-4c07-9e58-904cf53a1c7a)
+![Screenshot (63)](https://github.com/user-attachments/assets/0eb6733a-10d9-47aa-87f1-0baca6d5a3c1)
 
 ## Result
 
-Thus program is verified.
+Thus, the required program is written and executed successfully.
+ 
+
