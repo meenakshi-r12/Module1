@@ -1,4 +1,4 @@
-#Experiment-1A Write a python program to print ‘S’ and ‘k’ using character literal. 
+# Experiment-1A Write a python program to print ‘S’ and ‘k’ using character literal. 
 
 ## Aim
 To write a python program to print ‘S’ and ‘k’ using character literal..
